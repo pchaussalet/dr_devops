@@ -49,6 +49,12 @@ header h2, footer h2 {
 	background: none;
 }
 
+/*@media screen and (max-device-width: 1400px) {
+	.slide {
+		margin: .25em;
+	}
+}*/
+
 div.image {
 	padding: 0.5em 0;
 }
@@ -74,6 +80,7 @@ div.image img {
 }
 
 .slide {
+	/*margin: .5em;*/
 	font-size: 250%;
 	color: #eee;
 }
@@ -85,7 +92,7 @@ h3 {
 }
 
 .slide h1 {
-	font-size: 3.2em;
+	font-size: 1.5em;
 	color: #666;
 	margin-bottom: 0;
 	text-rendering: optimizeLegibility;
@@ -102,6 +109,7 @@ h3 {
 }
 
 .slide h2 {
+	font-size: 1.25em;
 	color: #ccc;
 	margin-top: 0;
 	margin-left: .5em;
@@ -117,7 +125,7 @@ h3 {
 	color: #fff;
 }
 
-.slide ul > ul {
+.slide ul > ul, .slide ul {
 	font-size: 90%;
 }
 
@@ -130,7 +138,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 4em;
+	padding: 3em;
 }
 
 .slide-layout-long-title h1 {
