@@ -2,3 +2,6 @@ build:
   image: node
   commands:
     - npm install
+
+branches:
+  - gh-pages
