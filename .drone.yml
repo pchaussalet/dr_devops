@@ -5,3 +5,4 @@ build:
 
 branches:
   - gh-pages
+  - master
